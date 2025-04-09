@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['aquatic plants', 'fish', 'human divers', 'reefs', 'robots', 'sea-floor', 'wrecks-ruins']
+
+roboflow:
+  workspace: deep-learning-uhyyo
+  project: underwater-instance-segmentation
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deep-learning-uhyyo/underwater-instance-segmentation/dataset/3
